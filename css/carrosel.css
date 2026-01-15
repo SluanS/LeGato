@@ -1,0 +1,8 @@
+#carrosel-div{
+    background-image: url("/img/Carrosel/cat-image.png");
+    /* width: 100vh; */
+    height: 489px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

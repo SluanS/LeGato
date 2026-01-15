@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.online-store h2{
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 9px;
+    color: rgb(65, 66, 85);
+}
+
+#email-img{
+    position: absolute;
+    left: 50px;
+    top: 215px;
+
+}
+
+#telephone-img{
+    position: absolute;
+    left: 50px;
+    top: 253px;
+}
+
+#locale-img{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+#social-media1{
+    height: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 75px;
+}
+#social-media2{
+    height: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 125px;
+}
+#social-media3{ 
+    position: absolute;
+    left: 0px;
+    height: 30px;
+    bottom: 40px;
+    left: 175px;
+}
+
+#contact1{
+    /* background-color: aqua; */
+    display: inline-block;
+    position: absolute;
+    margin-left: 1px;
+    bottom: 90px;
+    left: 100px;
+}
+
+ #adress1{
+    height: 100px;
+    /* position: absolute; */
+    margin-left: 100px;
+    left: 100px;
+}
+
+
+.online-store img{
+    position: absolute;
+    height: 20px;
+}
+
+
+.form div{
+    margin-left: 20px;
+}
+
+
+
+.form input, textarea{
+    border: 1.3px rgb(202, 150, 87) solid;
+    border-radius: 5px;
+    background-color:   #EFEDED;
+    height: 25px;
+    text-transform: uppercase;
+    text-indent: 5px;
+    resize: none;
+}
+
+.form input:focus{
+    background-color: rgb(92, 92, 92);
+    color: aliceblue;
+}
+
+.form p{
+
+    margin-bottom:0px;
+    margin-top: 2px;
+    font-size: 15px;
+    height: 20px;
+    font-weight: 600;
+}
+
+.form button{
+
+    background-color: rgb(232, 232, 232);
+    margin-top: 5px ;
+    border: 0.3px rgb(202, 150, 87) solid;
+    border-radius: 5px;
+    height: 50px;
+    width: 230px;
+}
+
+.form button:hover{
+    background-color: rgb(92, 92, 92);
+    color:aliceblue;
+}
+
+.name-div {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+#nome{
+    height: 35px;
+    width: 190px;
+    margin-top: 0px;
+}
+
+.tel-div{
+    margin-left: 0px;
+    display: inline-block;
+}
+
+#telefone{
+    width: 190px;
+    height: 35px;
+    margin-top: 0px;
+}
+
+#email{
+    height: 35px;
+    width: 380px;
+}
+
+#mensagem{  
+    width: 380px;
+    height: 100px;
+    padding: 12px;
+}
+
+ .contato{
+    display: flex;
+    justify-content: center;    
+}
+
+
+.form{
+    background-color:#B1E1E9;
+    /* position: absolute; */
+    width: 500px;
+    padding-top: 50px;
+    left: 775px;
+}
+
+.online-store{
+    background-color: #F2E4F9;
+    width: 500px;
+    height: 400px ;
+    position: sticky;
+    left: 275px;
+}

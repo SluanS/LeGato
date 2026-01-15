@@ -1,0 +1,115 @@
+header{
+    position: sticky;
+    top: 0px;
+    height: 110px;
+    background-color:#F2E4F9;
+    z-index: 5000;
+}
+
+.menu-icon{
+    background-image: none;
+}
+
+header ul{
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+}
+
+header a{
+    color: #4d5d6d;
+    text-decoration: none;
+}
+
+header img{
+    position: absolute;
+    bottom: -90px;
+    margin-left: 100px;
+    height: 290px;
+}
+
+header li{
+    font-size: 19px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 30px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+header li a:hover{
+    color: #d1c4ca;
+    text-decoration: underline #d1c4ca;
+}
+
+/* #top-division{
+        background-color: aqua;
+        width: 100vh;
+    } */
+
+@media only screen and (max-width: 500px){
+
+    #top-division{
+        background-color: aqua;
+        width: 100vh;
+    }
+
+    header{
+        position: relative;
+        /* margin-top: 10px; */
+        top: 0px;
+        height: 90px;
+        width: auto;
+    }
+
+    header img{
+        position: absolute;
+        margin-left: 40px;
+        height: 150px;
+        /* margin-bottom: 200px; */
+        padding: 0px;
+        margin-bottom: 55px;
+    }
+
+    header ul{
+        background-color: #d1c4ca;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+        width: auto;
+        float: right;
+        padding: 0px;
+        position: static;
+        margin-right: 50px;
+        margin-top: 50px;
+        background: transparent;
+        backdrop-filter: blur(5px);
+        display: none;
+        /* margin-left: 50px; */
+    }
+
+    header li{
+        font-size: 15px;
+        font-weight: 600;
+        width: 160px;
+        text-indent: 0px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #835d6f;
+        display: block;
+    }
+
+    .menu-icon{
+        background-image: url("/img/icons8-menu-quadrado-2-50.png");
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background-size:80%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+
+}

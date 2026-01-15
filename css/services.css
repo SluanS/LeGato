@@ -1,0 +1,67 @@
+#servicos{
+    background-color: #F2E4F9;
+    height: 110px;
+    position: sticky;
+    border-bottom: solid #e5b5ff;
+}
+
+.ser-1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 25%;
+    bottom: 1px;
+ }
+
+ .ser-1 img{
+    margin-left: 40px;
+    margin-bottom: -10px;
+    height: 30px;
+ }
+
+  .ser-1 p{
+    text-align: center;
+    margin-left: 10px;
+    /* margin-bottom: -10px; */
+ }
+
+.ser-2 {
+   /* background-color: tomato;   */
+   position: absolute;
+   left: 44%;
+   top: 15px;
+}
+
+
+ .ser-2 img{
+    margin-left: 45px;
+    margin-bottom: -10px;
+    height: 30px;
+ }
+
+  .ser-2 p{
+    text-align: center;
+    margin-left: 10px;
+    /* margin-bottom: -10px; */
+ }
+
+ .ser-3 {
+   /* background-color: tomato; */
+   height: 100px;
+   width: 150px;
+   position: absolute;
+   left: 65%;
+   margin-top: 20px;
+ }
+
+.ser-3 img{
+   margin-top: 15px;
+   margin-left: 55px;
+   height: 35px;
+}
+
+.ser-3 p{
+   margin-top: 1px;
+   text-align: center;
+   margin-left:0px ;
+}

@@ -1,0 +1,57 @@
+#about-us{
+    position: sticky;
+    margin-left: 79px;
+    margin-top: 20px;
+    height: 250px;
+}
+
+#about-us p{
+    margin-left: 50px;
+    width: 400px;
+    font-size: 18px;
+    font-weight:500;
+    color: rgb(255, 255, 255);
+}
+
+#quem-somos{
+    position: absolute;
+    background-color: #96D7EB;
+    left: 261px;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px 0px 0px 5px;   
+}
+
+#atendimento{
+    position: absolute;
+    left: 761px;
+    background-color: #839CB5;
+    width: 500px;
+    height: 250px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#about-us a{
+    position: absolute;
+    text-decoration: none;
+    padding: 8px 12px;
+    color: white;
+    border: solid 2px white;
+    left: 80px;
+    bottom: 27px;
+}
+
+#about-us a:hover{
+    color: rgb(103, 83, 83);
+    background-color: white;
+    border: rgb(103, 83, 83);
+}
+
+
+#about-us h2{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -5px;
+    margin-left: 9.5%;
+
+}

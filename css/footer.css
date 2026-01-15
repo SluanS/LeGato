@@ -1,0 +1,40 @@
+footer{
+    position: sticky;
+    height: 350px;
+    background-color: #839CB5;
+}
+
+#col1{
+    display: inline-block;
+    margin-left: 240px;
+}
+
+#col1 img{
+    width: 230px;
+    height: 200px;
+}
+#col1 p{
+    font-size: 15px;
+}
+
+#col2{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+#col3{
+    position: absolute;
+    top: 75px;
+    display: inline-block;
+    margin-left: 250px;
+    /* margin-bottom: 150px; */
+}
+
+#col3 img{
+    height: 40px;
+    margin-right: -20px;
+}
+
+#col3 h3{
+    margin-left:20px;
+}

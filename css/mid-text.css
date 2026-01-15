@@ -1,0 +1,20 @@
+#mid-text{
+    position: relative;
+    height: 50px;
+    margin: 50px;
+    margin-bottom: 9px;
+}
+
+#mid-text img{
+    position: absolute;
+    margin-left: 60%;
+    height: 50px;
+}
+
+#mid-text p{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    left: 36%;
+    top: -10px;
+}
