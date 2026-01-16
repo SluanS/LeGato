@@ -13,8 +13,6 @@ img{
 
 .produtos p{
     display: inline-block;
-    /* background-color: #1b9ab1; */
-    /* text-align: center; */
 }
 
 .circle-1{
@@ -26,7 +24,6 @@ img{
 }
 
 .p1{
-    /* background-color:yellowgreen; */
     margin-right: 60px;
     display: inline-block;
 }
@@ -38,7 +35,6 @@ img{
     width: 130px;
     border-radius: 1000px;
     margin-bottom: -10px;
-    background-color: #1b9ab1;
 }
 
 .p2 p{
@@ -131,3 +127,44 @@ img{
     margin-left: 45px;
 }
 
+@media only screen and (min-width:320px) and (max-width:500px){
+    .produtos{
+        margin-top: 45px;
+        width: auto;
+        height: 200px;
+        position: static;
+        display: flex;
+        overflow-y: scroll;
+        padding-left: 35px;
+    }
+    .p1{
+        margin-left: 1px;
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p2{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p3{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p4{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p5{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p6{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+}

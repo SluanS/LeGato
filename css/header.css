@@ -42,21 +42,18 @@ header li a:hover{
     text-decoration: underline #d1c4ca;
 }
 
-/* #top-division{
-        background-color: aqua;
-        width: 100vh;
-    } */
-
-@media only screen and (max-width: 500px){
+@media only screen and (min-width:320px) and (max-width: 500px){
 
     #top-division{
-        background-color: aqua;
-        width: 100vh;
+        width: 500px;
+        background-color: #835d6f;
+        width: 100%;
+        height: 100px;
+        display: block;
     }
 
     header{
         position: relative;
-        /* margin-top: 10px; */
         top: 0px;
         height: 90px;
         width: auto;
@@ -64,9 +61,8 @@ header li a:hover{
 
     header img{
         position: absolute;
-        margin-left: 40px;
+        margin-left: 3%;
         height: 150px;
-        /* margin-bottom: 200px; */
         padding: 0px;
         margin-bottom: 55px;
     }
@@ -83,7 +79,6 @@ header li a:hover{
         background: transparent;
         backdrop-filter: blur(5px);
         display: none;
-        /* margin-left: 50px; */
     }
 
     header li{
@@ -109,7 +104,7 @@ header li a:hover{
         display: inline-block;
         float: right;
         margin-top: 30px;
-        margin-right: 25px;
+        margin-right: 8%;
     }
 
 }

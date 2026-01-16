@@ -14,14 +14,13 @@
 #email-img{
     position: absolute;
     left: 50px;
-    top: 215px;
-
+    top: 205px;
 }
 
 #telephone-img{
     position: absolute;
     left: 50px;
-    top: 253px;
+    top: 240px;
 }
 
 #locale-img{
@@ -51,17 +50,16 @@
 }
 
 #contact1{
-    /* background-color: aqua; */
     display: inline-block;
-    position: absolute;
-    margin-left: 1px;
+
+    /* position: absolute; */
+    margin-left: 100px;
     bottom: 90px;
     left: 100px;
 }
 
  #adress1{
     height: 100px;
-    /* position: absolute; */
     margin-left: 100px;
     left: 100px;
 }
@@ -166,9 +164,42 @@
 }
 
 .online-store{
-    background-color: #F2E4F9;
+    background-color: #F2E4F9;  
     width: 500px;
     height: 400px ;
     position: sticky;
     left: 275px;
+} 
+
+@media only screen and (min-width:320px) and (max-width:500px){
+    .contato{
+        display: block;
+        position: static;
+    }
+
+    .online-store{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        display: block;
+    }
+
+    .form{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: static;
+        display: block;
+    }
+
+    .email-div{
+        width: auto;
+    }
+    #email{
+        width: 80%;
+    }
+
+    #mensagem{
+        width: 80%;
+    }
 }

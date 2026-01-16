@@ -15,7 +15,7 @@ footer{
 }
 #col1 p{
     font-size: 15px;
-}
+} 
 
 #col2{
     display: inline-block;
@@ -27,7 +27,6 @@ footer{
     top: 75px;
     display: inline-block;
     margin-left: 250px;
-    /* margin-bottom: 150px; */
 }
 
 #col3 img{
@@ -37,4 +36,41 @@ footer{
 
 #col3 h3{
     margin-left:20px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:500px){
+    footer{
+        width: auto;
+        height: auto;
+    }
+        #col1{
+            display: block;
+            margin-left: 10%;
+            width: auto;
+            padding: 0px;
+        }
+
+    #col1 img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #col1 p{
+        margin-top: 0px;
+    }
+
+    #col2 {
+        display: block;
+        margin-left: 10%;
+        width: auto;
+        padding: 0;
+    }
+
+    #col3 {
+        width: auto;
+        display: block;
+        position: static;
+        margin-left: 5%;
+    }
 }
