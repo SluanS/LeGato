@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Au pet</title>
+    <script src="/script/script.js" defer></script>
+    <script src="/script/MenuBar.js" defer></script>
+    <script src="/script/cookie.js" defer></script>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -16,10 +19,12 @@
                     <li><a href="#">Parceiros</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
-                <div class="menu-icon">
+                <div class="menu-icon" onclick="menuBar()">
                 </div>
         </header>
-        <div id="carrosel-div"> </div>
+        <div id="carrosel-div1" class="carrosel-img"> </div>
+        <div id="carrosel-div2" class="carrosel-img"> </div>
+        <div id="carrosel-div3" class="carrosel-img"> </div>
     </div>
     <div id="servicos">
         <div class="ser-1">
@@ -108,10 +113,10 @@
             <h2>Loja Online</h2>
             <img src="/img/local.png" alt="" id="locale-img">
             <div id="adress1">
-                <p>Rua lorem ipsum</p>
-                <p>São Paulo - SP</p>
-                <p>Brasil</p>
-        </div> 
+                    <p>Rua lorem ipsum</p>
+                    <p>São Paulo - SP</p>
+                    <p>Brasil</p>
+            </div> 
              <img src="/img/email.png" alt="" id="email-img">
              <img src="/img/telephone.png" alt="" id="telephone-img">
              <div id="contact1">
@@ -123,20 +128,21 @@
              <img src="/img/social-media-logo/facebook.png" alt="" id="social-media3">
         </div>
         
+        <form action=""></form>
         <div class="form">
             <div>
                 <div class="name-div">
                 <p>Nome</p>
-                <input type="text" id="nome" placeholder="Seu nome">
+                <input type="text" id="nome" placeholder="Seu nome" required>
             </div><!--
         --><div class="tel-div">
                 <p>Telefone</p>  
-                <input type="text" name="" placeholder="(11)99999-9999" id="telefone">
+                <input type="text" name="" placeholder="(11)99999-9999" id="telefone" required>
             </div>
 
             <div class="email-div">
                 <p>E-mail</p>
-                <input type="text"placeholder="Seu e-mail" name="" id="email">
+                <input type="text"placeholder="Seu e-mail" name="" id="email" required>
             </div>
 
             <div class="mensagem-div">
@@ -149,6 +155,14 @@
                 
         </div>
         </div>
+    </div>
+
+    <div id="cookies">
+        <button class="close" onclick="closeCookieCard()">x</button>
+        <h2>Usamos cookies</h2>
+        <p>Utilizamos de <strong>cookies</strong> para tornar sua experiência nesse site mais positiva</p>
+        <button onclick="acceptCookies()">Aceitar</button>
+        <button>Politicas de cookies</button>
     </div>
 
     <footer>

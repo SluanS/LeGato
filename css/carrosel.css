@@ -1,8 +1,28 @@
-#carrosel-div{
+#carrosel-div1{
+    display:block;
     background-image: url("/img/Carrosel/cat-image.png");
-    /* width: 100vh; */
+    
+}
+#carrosel-div2{
+    display: none;
+    background-image: url("/img/Carrosel/hamster-image.png");
+
+}
+#carrosel-div3{
+    display: none;
+    background-image: url("/img/Carrosel/cachorro-carrossel.png");
+}
+
+.carrosel-img{
     height: 489px;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media only screen and (min-width:501px) and (max-width:1020px){
+    .carrosel-div{
+        overflow: hidden;
+        height: 320px;
+    }
 }

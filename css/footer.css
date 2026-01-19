@@ -74,3 +74,79 @@ footer{
         margin-left: 5%;
     }
 }
+
+
+@media only screen and (max-width:320px){
+    footer{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+        #col1{
+            display: block;
+            margin-left: 10%;
+            width: auto;
+            padding: 0px;
+        }
+
+    #col1 img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #col1 p{
+        margin-top: 0px;
+    }
+
+    #col2 {
+        display: block;
+        margin-left: 10%;
+        width: auto;
+        padding: 0;
+    }
+
+    #col3 {
+        width: auto;
+        display: block;
+        position: static;
+        margin-left: 5%;
+    }
+}
+
+
+@media only screen and (min-width:501px) and (max-width:1500px){
+    footer{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+        #col1{
+            display: block;
+            margin-left: 10%;
+            width: auto;
+            padding: 0px;
+        }
+
+    #col1 img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #col1 p{
+        margin-top: 0px;
+    }
+
+    #col2 {
+        display: block;
+        margin-left: 10%;
+        width: auto;
+        padding: 0;
+    }
+
+    #col3 {
+        width: auto;
+        display: block;
+        position: static;
+        margin-left: 5%;
+    }
+}

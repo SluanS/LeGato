@@ -124,3 +124,141 @@
       font-size: 13px;
    }
 }
+   @media only screen and (max-width: 320px){
+   #servicos{
+      position:sticky;
+      margin-top: 30%;
+      width: 100%;
+      height: 13vh;
+   }
+
+   .ser-1{
+      width: 22%;
+      position: static;
+      display: inline-block;
+      margin-left: 5%;
+      bottom: -25%;
+   }
+   .ser-1 img{
+      margin-left: 25px;
+      height: 20%;
+   }
+
+   .ser-1 p{
+      margin-top: 10px;
+      font-size: 50%;
+   }
+
+   .ser-2{
+      position: absolute;
+      display: inline-block;
+      height: 100px;
+      width: 22%;
+      margin-left: 0%;
+      left: 0;
+      margin-left: 35%;
+      top: -0%;
+   }
+
+   .ser-2 img{
+      margin-left: 25px;
+      height: 20%;
+   }
+
+   .ser-2 p{
+      margin-top: 10px;
+      font-size: 50%;
+   }
+
+   .ser-3{
+      position: absolute;
+      display: inline-block;
+      width: 22%;
+      height: 100px;
+      margin-left: 70%;
+      left: 0;
+      margin-top: 0px;
+
+   }
+    .ser-3 img{
+      margin-left: 20px;
+      height: 20%;
+      margin-top: 20px;
+   }
+
+   .ser-3 p{
+      margin-top: 10px;
+      font-size: 50%;
+   }
+}
+
+@media only screen and (min-width:501px) and (max-width:1020px){
+   #servicos{
+      position:sticky;
+      margin-top: 13%;
+      width: 100%;
+      height: 13vh;
+   }
+
+   .ser-1{
+      position: static;
+      /* margin-left: 10%; */
+      display: inline-block;
+      margin-left: 15%;
+      bottom: -25%;
+   }
+   .ser-1 img{
+      height: 20%;
+   }
+
+   .ser-1 p{
+      font-size: 13px;
+   }
+
+   .ser-2{
+      position: absolute;
+      display: inline-block;
+      height: 100px;
+      left: 0;
+      margin-left: 40%;
+      top: -0%;
+   }
+
+   .ser-2 img{
+      height: 20%;
+   }
+
+   .ser-2 p{
+      font-size: 13px;
+   }
+
+   .ser-3{
+      position: absolute;
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      margin-left: 70%;
+      left: 0;
+      margin-top: 0px;
+
+   }
+    .ser-3 img{
+      margin-left: 39px;
+      height: 20%;
+   }
+
+   .ser-3 p{
+      font-size: 13px;
+   }
+}
+
+@media only screen and (min-width:1021px) and (max-width: 1400px){
+
+   #servicos{
+    background-color: #F2E4F9;
+    margin-top: -150px;
+    height: 110px;
+    position: sticky;
+    border-bottom: solid #e5b5ff;
+   }
+}

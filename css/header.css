@@ -68,16 +68,14 @@ header li a:hover{
     }
 
     header ul{
-        background-color: #d1c4ca;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
         width: auto;
-        float: right;
         padding: 0px;
-        position: static;
-        margin-right: 50px;
-        margin-top: 50px;
+        position: absolute;
+        right: 10%;
+        top: 75%;
         background: transparent;
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(45px);
         display: none;
     }
 
@@ -95,16 +93,154 @@ header li a:hover{
     }
 
     .menu-icon{
+        position: absolute;
+        right: 5%;
+        top: 30%;
         background-image: url("/img/icons8-menu-quadrado-2-50.png");
         width: 50px;
         height: 50px;
-        display: inline-block;
         background-size:80%;
         background-repeat: no-repeat;
-        display: inline-block;
         float: right;
-        margin-top: 30px;
-        margin-right: 8%;
     }
 
 }
+
+
+
+@media only screen and (max-width: 320px){
+
+    #top-division{
+        width: 500px;
+        background-color: #835d6f;
+        width: 100%;
+        height: 100px;
+        display: block;
+    }
+
+    header{
+        position: relative;
+        top: 0px;
+        height: 90px;
+        width: auto;
+    }
+
+    header img{
+        position: static;
+        margin-left: 5%;
+        height: 100%;
+        padding: 0px;
+        margin-top: 0;
+    }
+
+      header ul{
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+        width: auto;
+        padding: 0px;
+        position: absolute;
+        right: 10%;
+        top: 75%;
+        background: transparent;
+        backdrop-filter: blur(45px);
+        display: none;
+    }
+
+    header li{
+        font-size: 15px;
+        font-weight: 600;
+        width: 160px;
+        text-indent: 0px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #835d6f;
+        display: block;
+    }
+
+    .menu-icon{
+        position: absolute;
+        right: 5%;
+        top: 30%;
+        background-image: url("/img/icons8-menu-quadrado-2-50.png");
+        width: 50px;
+        height: 50px;
+        background-size:80%;
+        background-repeat: no-repeat;
+        float: right;
+    }
+
+}
+
+
+@media only screen and (min-width:501px) and (max-width: 1020px){
+
+    #top-division{
+        width: auto;
+        background-color: #835d6f;
+        width: 100%;
+        height: 200px;
+        display: block;
+    }
+
+    header{
+        display: flex;
+        position: relative;
+        top: 0px;
+        height: 90px;
+        width: auto;
+    }
+
+    header img{
+        position: static;
+        margin-left: 5%;
+        height: 100%;
+        padding: 0px;
+        margin-top: 0;
+    }
+
+    header ul{
+        width: 100%;
+        padding: 0;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* align-content: center; */
+        margin: 5px;
+    }
+
+    header li{
+        font-size: 15px;
+        padding: 0;
+        margin-top: 0px;
+        margin: 1%;
+        margin-left: 25px;
+    }
+
+    
+
+}
+
+
+
+
+@media only screen and (min-width:1021px) and (max-width: 1200px){
+
+
+header ul{
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+}
+
+header img{
+    position: absolute;
+    bottom: -50px;
+    margin-left: 100px;
+    height: 200px;
+    }
+
+    }

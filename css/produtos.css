@@ -168,3 +168,134 @@ img{
         margin-right: 20px;
     }
 }
+
+
+@media only screen and (max-width:320px){
+    .produtos{
+        margin-top: 45px;
+        width: auto;
+        height: 200px;
+        position: static;
+        display: flex;
+        overflow-y: scroll;
+        padding-left: 35px;
+    }
+    .p1{
+        margin-left: 1px;
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p2{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p3{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p4{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p5{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p6{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width:501px) and (max-width:1020px){
+     .produtos{
+        margin-top: 45px;
+        width: auto;
+        height: 200px;
+        position: static;
+        display: flex;
+        overflow-y: scroll;
+        padding-left: 35px;
+    }
+    .p1{
+        margin-left: 1px;
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p2{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p3{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p4{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p5{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p6{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width:1021px) and (max-width: 1500px){
+
+      .produtos{
+        margin-left: 10%;
+        margin-top: 45px;
+        width: auto;
+        height: 200px;
+        position: static;
+        display: flex;
+        overflow-y: scroll;
+        padding-left: 35px;
+    }
+    .p1{
+        margin-left: 1px;
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p2{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p3{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p4{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p5{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .p6{
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
