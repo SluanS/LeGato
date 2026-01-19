@@ -24,6 +24,9 @@ function isCookieAlowed(){
     cookies = decodeURIComponent(document.cookie);
     arrayCookies = cookies.split(";");
     console.log(arrayCookies);
+    if (arrayCookies[0]== ""){
+        return false
+    }
     for (let i = 0; i < arrayCookies.length; i++){
         splited = arrayCookies[i].split("=")
         arrayCookies[i] = splited
@@ -55,7 +58,5 @@ function verifyPermission(){
         cookieDiv.style.display = "inline-block"
     }
 }
-
-// acceptCookies()
 
 verifyPermission()
